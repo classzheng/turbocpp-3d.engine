@@ -68,9 +68,6 @@ void pawrender(float x, float y) {
 	line(x,y,640-x,y);
  setcolor(GREEN);
 	line(x,y,320-x,240-y);
- setcolor(YELLOW);
-	line(x+20,y-10,320-x,480-y);
-	line(x-60,y+20,320-x,480-y+60);
 	return ;
 }
 void createpixel(float x, float y, float z) {
